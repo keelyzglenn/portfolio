@@ -1,3 +1,4 @@
+/*on all pages*/
 .jumbotron {
   text-align: center;
   padding: 50px;
@@ -10,14 +11,21 @@
 
 .nav{
   display: inline-block;
+  background-color: white;
 }
 
+.navbar{
+  background-color:white;
+  color: black;
+}
+/*index.html*/
 .center {
   margin: 0 auto;
   margin-top: 60px;
   text-align: center;
 }
 
+/*portfolio*/
 .repository {
   text-decoration: none;
 }
@@ -31,3 +39,24 @@
   margin-top: 60px;
   text-align: center;
 }
+
+.title{
+  font-size: 30px;
+}
+
+.icon{
+  text-align: center;
+  max-width: 100%;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#azkaban{
+  width: 30%;
+}
+
+/*About Me*/
+ #floatme{
+   float: left;
+ }
