@@ -13,9 +13,9 @@ _{This project displays my ability to impliment the lessons learned during week 
 * _Clone this repository_
 * _Open in web browser of your choice_
 
-## Known Bugs
+## Access
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_https://github.com/keelyzglenn/portfolio_
 
 ## Technologies Used
 

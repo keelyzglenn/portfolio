@@ -26,13 +26,19 @@
 }
 
 /*portfolio*/
-.repository {
+.repository{
   text-decoration: none;
 }
 
-.repository a:hover{
-  color: black;
-  text-decoration: none;
+.repository a:link{
+  color:black;
+}
+
+.repository a:visited{
+  color:black;
+}
+.repository a:active{
+  color: pink;
 }
 
 .repository p{
@@ -55,9 +61,6 @@
   width: 30%;
 }
 
-#me{
-  border: 1px solid black;
-}
 
 /*About Me*/
 
