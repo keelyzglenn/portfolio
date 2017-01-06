@@ -1,7 +1,7 @@
 /*on all pages*/
 .jumbotron {
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   background-color: white;
 }
 
@@ -57,6 +57,18 @@
 }
 
 /*About Me*/
- #floatme{
+
+ .float{
+   width: 50%;
    float: left;
- }
+   margin-top: 60px;
+}
+
+.head{
+  font-weight: bolder;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
