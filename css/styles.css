@@ -1,10 +1,14 @@
 /*on all pages*/
 body{
+  background-image: url("https://media.timeout.com/images/102920649/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: Helvetica;
 }
 .jumbotron {
   text-align: center;
-  padding: 30px;
+  padding-top: 0px;
   background-color:white;
   font-family: Helvetica Neue;
 }
@@ -30,12 +34,12 @@ body{
   text-align: center;
 }
 
-body.main{
+/*body.main{
   background-image: url("https://media.timeout.com/images/102920649/image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+}*/
 
 .content{
   background-color: white;
@@ -86,11 +90,20 @@ body.main{
 
 
 /*About Me*/
+.col-md-11{
+  background-color: white;
+  border: 10px solid white;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
 
- .float img{
-   float: left;
-   margin-top: 60px;
-   width: 30%;
+}
+
+.float img{
+  float: left;
+  margin-top: 60px;
+  width: 300px;
 }
 
 .pad{
