@@ -1,8 +1,12 @@
 /*on all pages*/
+body{
+  font-family: Helvetica;
+}
 .jumbotron {
   text-align: center;
   padding: 30px;
-  background-color: white;
+  background-color:white;
+  font-family: Helvetica Neue;
 }
 
 .links{
@@ -18,11 +22,25 @@
   background-color:white;
   color: black;
 }
+
 /*index.html*/
 .center {
   margin: 0 auto;
   margin-top: 60px;
   text-align: center;
+}
+
+body.main{
+  background-image: url("https://media.timeout.com/images/102920649/image.jpg");
+  background-repeat: no-repeat;
+}
+
+.content{
+  background-color: white;
+  text-align: center;
+  border: 10px solid white;
+  margin: 100px;
+  padding: 100px;
 }
 
 /*portfolio*/
@@ -89,3 +107,6 @@
 dl{
   font-size: 15px;
 }
+
+
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
