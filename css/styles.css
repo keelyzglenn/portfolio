@@ -61,16 +61,31 @@
 
 /*About Me*/
 
- .float{
-   width: 50%;
+ .float img{
    float: left;
    margin-top: 60px;
+   width: 40%;
+}
+
+.pad{
+  margin-top: 60px;
+}
+
+.space{
+  padding: 20px;
+}
+
+.cat{
+  font-size: 18px;
 }
 
 .head{
   font-weight: bolder;
 }
 
+dl{
+  font-size: 15px;
+}
 ul{
   list-style-type: none;
   padding-left: 0;
