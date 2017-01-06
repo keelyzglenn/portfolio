@@ -1,4 +1,6 @@
 /*on all pages*/
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 body{
   background-image: url("https://media.timeout.com/images/102920649/image.jpg");
   background-repeat: no-repeat;
@@ -8,9 +10,18 @@ body{
 }
 .jumbotron {
   text-align: center;
-  padding-top: 0px;
+  padding:0px;
   background-color:white;
   font-family: Helvetica Neue;
+}
+
+.col-md-12{
+  background-color: white;
+  border: 10px solid white;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
 }
 
 .links{
@@ -28,18 +39,6 @@ body{
 }
 
 /*index.html*/
-.center {
-  margin: 0 auto;
-  margin-top: 60px;
-  text-align: center;
-}
-
-/*body.main{
-  background-image: url("https://media.timeout.com/images/102920649/image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}*/
 
 .content{
   background-color: white;
@@ -52,7 +51,13 @@ body{
   padding: 100px;
 }
 
+#space{
+  margin-top:30px;
+}
 /*portfolio*/
+
+/*repository are the links to the github pages*/
+
 .repository{
   text-decoration: none;
 }
@@ -79,9 +84,13 @@ body{
 
 .icon{
   text-align: center;
-  max-width: 100%;
+  max-width: 350px;
   height: 300px;
   padding: 10px;
+}
+
+#wiki{
+  margin-top: -15px;
 }
 
 #azkaban{
@@ -90,15 +99,6 @@ body{
 
 
 /*About Me*/
-.col-md-11{
-  background-color: white;
-  border: 10px solid white;
-  margin-top: 50px;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 50px;
-
-}
 
 .float img{
   float: left;
@@ -125,6 +125,3 @@ body{
 dl{
   font-size: 15px;
 }
-
-
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
