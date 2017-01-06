@@ -33,13 +33,18 @@ body{
 body.main{
   background-image: url("https://media.timeout.com/images/102920649/image.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .content{
   background-color: white;
   text-align: center;
   border: 10px solid white;
-  margin: 100px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 300px;
   padding: 100px;
 }
 
