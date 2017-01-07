@@ -1,4 +1,4 @@
-# _{Keely Silva Glenn Portfolio}_
+# _Keely Silva Glenn Portfolio_
 
 #### _Combination of Week 1 Html/CSS/Bootstrap, 01.06.2017_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This project displays my ability to impliment the lessons learned during week 1 at Epicodus. In this repository, you will find multiple html files and a css file that link together. This project describes my past projects from week one, as well as a brief "About Me"}_
+_This project displays my ability to impliment the lessons learned during week 1 at Epicodus. In this repository, you will find multiple html files and a css file that link together. This project describes my past projects from week one, as well as a brief "About Me"_
 
 ## Setup/Installation Requirements
 
